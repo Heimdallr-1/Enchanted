@@ -1,0 +1,41 @@
+{
+  "assigned_items": [
+    "enchanted:reek_of_misfortune"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:reek_of_misfortune"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Пары невзгоды",
+          "template": "modopedia:page/headered_text",
+          "text": "Кажется, священная ольха при срезании кровоточит, несущая всем невзгоду. Считается, что дерево хранит души наших прародителей.\n\nДым, выделяемый от горения, можно собрать, сохранив эти эффекты."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "components": [
+            {
+              "recipe": "enchanted:byproduct/reek_of_misfortune_alder_sapling",
+              "template": "enchanted:page/byproduct"
+            },
+            {
+              "recipe": "enchanted:distilling/diamond_vapour_ghast_tear",
+              "template": "enchanted:page/distillery"
+            },
+            {
+              "recipe": "enchanted:distilling/ender_pearl",
+              "template": "enchanted:page/distillery"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "title": "Пары невзгоды"
+}

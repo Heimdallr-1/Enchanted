@@ -1,0 +1,58 @@
+{
+  "assigned_items": [
+    "enchanted:altar"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:altar"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Создание алтаря",
+          "template": "modopedia:page/headered_text",
+          "text": "Ведьма должна поставить $(b)6 блоков алтаря$(/b), чтобы образовать прямоугольную платформу для постройки алтаря."
+        },
+        {
+          "recipe": "enchanted:altar",
+          "template": "modopedia:recipe/crafting",
+          "y": 65
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "header": "Сила алтаря",
+          "template": "modopedia:page/headered_text",
+          "text": "Алтари черпают свою силу из природы, в особенности из растений окружающей местности. Множество растений, в отличие от нескольких, лучше действуют на алтарь."
+        },
+        {
+          "images": [
+            "enchanted:textures/gui/modopedia/altar.png"
+          ],
+          "template": "enchanted:framed_image",
+          "x": 10,
+          "y": 90
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "header": "Улучшения",
+          "template": "modopedia:page/headered_text",
+          "text": "На алтарь можно поставить некоторые блоки, чтобы приумножить его влияние.\n\nМодификация имеет $(b)тип$(/b): в рамках типа будет засчитываться только лучшая модификация."
+        },
+        {
+          "type": "modopedia:multiblock",
+          "height": 70,
+          "multiblock_id": "enchanted:altar",
+          "y": 75
+        }
+      ]
+    }
+  ],
+  "title": "Создание алтаря"
+}

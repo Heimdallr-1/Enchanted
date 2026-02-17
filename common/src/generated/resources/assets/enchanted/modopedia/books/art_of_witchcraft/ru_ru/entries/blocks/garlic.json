@@ -1,0 +1,30 @@
+{
+  "assigned_items": [
+    "enchanted:garlic"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:garlic"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Чеснок",
+          "template": "modopedia:page/headered_text",
+          "text": "Чеснок, научное название «Чеснок посевной» считается обязательным компонентом рациона во многих семьях.\n\nВампиры говорят, что испытывают к нему неприязнь; однако эффективность чеснока в роли отпугивателя — не внушает доверия."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "block": "enchanted:garlic[age=4]",
+          "template": "modopedia:page/block",
+          "text": "$(b)Получение:$(/b)\nВыпадает с высокой и низкой травы."
+        }
+      ]
+    }
+  ],
+  "title": "Чеснок"
+}

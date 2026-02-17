@@ -1,0 +1,29 @@
+{
+  "assigned_items": [
+    "enchanted:attuned_stone"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:attuned_stone"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Камни настройки",
+          "template": "modopedia:page/headered_text",
+          "text": "Камень настройки — это алмаз, наполненный магической энергией.\n\nЕго можно зарядить, чтобы он служил переносным контейнером для $(b)$(el:blocks/altar)силы алтаря$(/el)$(/b). Это позволяет пользователю колдовать в магическом круге без наличия алтаря, а ещё используется при создании множество магических инструментов."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "recipe": "enchanted:attuned_stone",
+          "template": "modopedia:page/crafting"
+        }
+      ]
+    }
+  ],
+  "title": "Камни настройки"
+}

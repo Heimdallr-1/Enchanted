@@ -1,0 +1,27 @@
+{
+  "assigned_items": [],
+  "icon": {
+    "count": 1,
+    "id": "minecraft:oak_sapling"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Чаща",
+          "template": "modopedia:page/headered_text",
+          "text": "Выращивает обширное море деревьев в окрестности круга, проращивая лес даже в самых необитаемых условиях.\n\nСаженец нужно бросить в границах круга для определения типа дерева, для роста."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "rite": "enchanted:forest",
+          "template": "enchanted:page/rite"
+        }
+      ]
+    }
+  ],
+  "title": "Чаща"
+}

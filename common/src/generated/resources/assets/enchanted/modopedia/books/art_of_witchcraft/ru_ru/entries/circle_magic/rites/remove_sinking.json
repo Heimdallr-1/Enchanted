@@ -1,0 +1,27 @@
+{
+  "assigned_items": [],
+  "icon": {
+    "count": 1,
+    "id": "minecraft:water_bucket"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Снятие тяжести",
+          "template": "modopedia:page/headered_text",
+          "text": "Помогает страдающему сбросить вес, позволяя ему плавать и летать как обычно.\n\nНеуспех ритуала сильнее взваливает груз на плечи страдающему."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "rite": "enchanted:remove_sinking",
+          "template": "enchanted:page/rite"
+        }
+      ]
+    }
+  ],
+  "title": "Снятие тяжести"
+}

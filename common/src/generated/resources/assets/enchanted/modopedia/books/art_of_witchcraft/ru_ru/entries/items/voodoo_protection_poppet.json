@@ -1,0 +1,43 @@
+{
+  "assigned_items": [
+    "enchanted:voodoo_protection_poppet",
+    "enchanted:infused_voodoo_protection_poppet",
+    "enchanted:sturdy_voodoo_protection_poppet"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:voodoo_protection_poppet"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Защита от вольта",
+          "template": "modopedia:page/headered_text",
+          "text": "Защищает получателя от вольт. Находясь под влиянием вольта, кукла, наоборот, сломается.\n\nЕсли наполнена, владелец куклы ещё и будет поражён молнией."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "components": [
+            {
+              "recipe": "enchanted:spinning/voodoo_protection_poppet",
+              "template": "enchanted:page/spinning"
+            },
+            {
+              "recipe": "enchanted:spinning/infused_voodoo_protection_poppet",
+              "template": "enchanted:page/spinning"
+            },
+            {
+              "recipe": "enchanted:spinning/sturdy_voodoo_protection_poppet",
+              "template": "enchanted:page/spinning"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "title": "Защита от вольта"
+}

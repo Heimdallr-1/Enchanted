@@ -1,0 +1,43 @@
+{
+  "assigned_items": [
+    "enchanted:hunger_poppet",
+    "enchanted:infused_hunger_poppet",
+    "enchanted:sturdy_hunger_poppet"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:hunger_poppet"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Голод",
+          "template": "modopedia:page/headered_text",
+          "text": "Защищает получателя от голодной смерти. Во время смерти от голода, напротив, желудок наполнится сполна.\n\nНаполненные куклы голода дают «Насыщение V» на 2 минуты."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "components": [
+            {
+              "recipe": "enchanted:spinning/hunger_poppet",
+              "template": "enchanted:page/spinning"
+            },
+            {
+              "recipe": "enchanted:spinning/infused_hunger_poppet",
+              "template": "enchanted:page/spinning"
+            },
+            {
+              "recipe": "enchanted:spinning/sturdy_hunger_poppet",
+              "template": "enchanted:page/spinning"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "title": "Голод"
+}

@@ -1,0 +1,15 @@
+{
+  "display_on_front_page": false,
+  "entries": [
+    "circle_magic/rites/summon_entity",
+    "circle_magic/rites/summon_familiar",
+    "circle_magic/rites/transpose_caster",
+    "circle_magic/rites/transpose_iron"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "minecraft:ender_pearl"
+  },
+  "landing_text": "Ритуалы для перемещения используются для изменения местоположения объекта или существа, например, телепортация.\n\nПризыв также подвергается перемещению, как и призванное существо, что переместится в круг.",
+  "title": "Перемещение"
+}

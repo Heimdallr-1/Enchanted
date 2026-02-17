@@ -1,0 +1,29 @@
+{
+  "assigned_items": [
+    "enchanted:brew_of_the_grotesque"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:brew_of_the_grotesque"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Взвар гротеска",
+          "template": "modopedia:page/headered_text",
+          "text": "Изменяет выпившего до не узнаваемости, заставляя близлежащих монстров обманом признать выпившего — одного из них.\n\nКроме того, применяется (как основа) во многих $(b)$(el:circle_magic/curses)проклятиях$(/el)$(/b)."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "recipe": "enchanted:kettle/brew_of_the_grotesque",
+          "template": "enchanted:recipe/kettle"
+        }
+      ]
+    }
+  ],
+  "title": "Взвар гротеска"
+}

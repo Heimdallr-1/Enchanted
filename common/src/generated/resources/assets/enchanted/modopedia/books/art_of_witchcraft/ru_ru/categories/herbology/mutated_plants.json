@@ -1,0 +1,21 @@
+{
+  "display_on_front_page": false,
+  "entries": [
+    "herbology/mutations",
+    "items/mutandis",
+    "items/mutandis_extremis",
+    "blocks/rowan_sapling",
+    "blocks/hawthorn_sapling",
+    "blocks/alder_sapling",
+    "blocks/spanish_moss",
+    "blocks/glint_weed",
+    "blocks/ember_moss",
+    "blocks/blood_poppy"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:mutandis"
+  },
+  "landing_text": "Для получения некоторых растений требуется мутация либо с помощью «Мутандиса», либо «Мутандиса экстремиса».\n\nВ этой главе описываются природные растения.",
+  "title": "Мутировавшие растения"
+}

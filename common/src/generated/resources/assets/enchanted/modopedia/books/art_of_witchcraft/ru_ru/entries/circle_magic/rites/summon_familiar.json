@@ -1,0 +1,27 @@
+{
+  "assigned_items": [],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:arthana"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Призыв фамильяра",
+          "template": "modopedia:page/headered_text",
+          "text": "Заставляет фамильяра, связанного с колдуном ритуала, телепортироваться в колдующий круг.\n\nРитуал может призывать отпущенных или умерших фамильяров."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "rite": "enchanted:summon_familiar",
+          "template": "enchanted:page/rite"
+        }
+      ]
+    }
+  ],
+  "title": "Призыв фамильяра"
+}

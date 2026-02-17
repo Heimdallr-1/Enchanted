@@ -1,0 +1,59 @@
+{
+  "assigned_items": [
+    "enchanted:arthana",
+    "enchanted:tongue_of_dog",
+    "enchanted:wool_of_bat",
+    "enchanted:creeper_heart"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:arthana"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Артхана",
+          "template": "modopedia:page/headered_text",
+          "text": "$(b)Артхана$(/b) — это ритуальный кинжал для жертвоприношения. Используя её для убийства некоторых существ, они могут выдать редкие материалы."
+        },
+        {
+          "recipe": "enchanted:arthana",
+          "template": "modopedia:recipe/crafting",
+          "y": 90
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "components": [
+            {
+              "entity": "minecraft:bat",
+              "scale": 0.75,
+              "template": "modopedia:page/entity",
+              "text": "$(b)Выпадает:$(/b)\nШерсть летучей мыши."
+            },
+            {
+              "entity": "minecraft:wolf",
+              "scale": 0.65,
+              "template": "modopedia:page/entity",
+              "text": "$(b)Выпадает:$(/b)\nСобачий язык."
+            },
+            {
+              "entity": "minecraft:creeper",
+              "template": "modopedia:page/entity",
+              "text": "$(b)Выпадает:$(/b)\nСердце крипера."
+            },
+            {
+              "entity": "minecraft:skeleton",
+              "template": "modopedia:page/entity",
+              "text": "$(b)Выпадает:$(/b)\nЧереп скелета."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "title": "Артхана"
+}

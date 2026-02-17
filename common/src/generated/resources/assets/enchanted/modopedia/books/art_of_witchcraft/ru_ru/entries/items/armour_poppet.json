@@ -1,0 +1,43 @@
+{
+  "assigned_items": [
+    "enchanted:armour_poppet",
+    "enchanted:infused_armour_poppet",
+    "enchanted:sturdy_armour_poppet"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:armour_poppet"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Броня",
+          "template": "modopedia:page/headered_text",
+          "text": "Защищает часть носимого снаряжения, принадлежащее получателю: когда сломается, восстанавливая некоторую часть прочности.\n\nЕсли наполнена, напротив, полностью починит предмет."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "components": [
+            {
+              "recipe": "enchanted:spinning/armour_poppet",
+              "template": "enchanted:page/spinning"
+            },
+            {
+              "recipe": "enchanted:spinning/infused_armour_poppet",
+              "template": "enchanted:page/spinning"
+            },
+            {
+              "recipe": "enchanted:spinning/sturdy_armour_poppet",
+              "template": "enchanted:page/spinning"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "title": "Броня"
+}

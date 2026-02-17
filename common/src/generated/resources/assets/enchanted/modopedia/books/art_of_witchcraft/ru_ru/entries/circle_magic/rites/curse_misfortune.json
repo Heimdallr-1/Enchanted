@@ -1,0 +1,27 @@
+{
+  "assigned_items": [],
+  "icon": {
+    "count": 1,
+    "id": "minecraft:ender_eye"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Невзгода",
+          "template": "modopedia:page/headered_text",
+          "text": "Цель проклинается невзгодой, периодически склоняя её получать такие невезучие эффекты, как «Слабость» или «Утомление».\n\nСила и срок эффектов увеличивается в зависимости от уровня проклятия."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "rite": "enchanted:curse_misfortune",
+          "template": "enchanted:page/rite"
+        }
+      ]
+    }
+  ],
+  "title": "Невзгода"
+}

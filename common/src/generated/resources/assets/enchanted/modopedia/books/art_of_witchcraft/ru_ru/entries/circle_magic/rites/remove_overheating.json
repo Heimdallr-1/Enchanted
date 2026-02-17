@@ -1,0 +1,27 @@
+{
+  "assigned_items": [],
+  "icon": {
+    "count": 1,
+    "id": "minecraft:blaze_powder"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Устранение перегрева",
+          "template": "modopedia:page/headered_text",
+          "text": "Устраняет существу склонность к перегреву в некоторых биомах.\n\nЕсди устранение не удалось, цель сильнее перегреется."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "rite": "enchanted:remove_overheating",
+          "template": "enchanted:page/rite"
+        }
+      ]
+    }
+  ],
+  "title": "Устранение перегрева"
+}

@@ -1,0 +1,31 @@
+{
+  "assigned_items": [
+    "enchanted:icy_needle",
+    "enchanted:snowbell_seeds"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:icy_needle"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Стиракс",
+          "template": "modopedia:page/headered_text",
+          "text": "Стиракс японский, более известный под названием «Стиракс» — это кустарник семейства Стираксовые.\n\nВопреки названия, он эндемичен для тёплых климатов в Азии. Смола используется для очистки, снятия напряжения или развеивания злости."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "block": "enchanted:snowbell[age=4]",
+          "template": "modopedia:page/block",
+          "text": "$(b)Получение:$(/b)\nВыпадает с высокой и низкой травы."
+        }
+      ]
+    }
+  ],
+  "title": "Стиракс"
+}

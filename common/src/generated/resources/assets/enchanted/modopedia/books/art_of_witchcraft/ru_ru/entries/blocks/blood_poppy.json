@@ -1,0 +1,51 @@
+{
+  "assigned_items": [
+    "enchanted:blood_poppy"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:blood_poppy"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Кровавый мак",
+          "template": "modopedia:page/headered_text",
+          "text": "Маки прославились тем, что пышно расцветали на крови падших солдат. Благодаря их мутации, они также способны черпать кровь при соприкосновении.\n\nНажмите ПКМ с помощью $(b)$(el:items/taglock_kit)набора волшебного звена$(/el)$(/b) для сбора крови."
+        },
+        {
+          "type": "modopedia:multiblock",
+          "height": 60,
+          "multiblock": {
+            "type": "modopedia:dense",
+            "key": {
+              "S": {
+                "type": "modopedia:simple",
+                "states": [
+                  "enchanted:blood_poppy"
+                ]
+              }
+            },
+            "pattern": [
+              [
+                "S"
+              ]
+            ]
+          },
+          "no_offsets": true,
+          "y": 90
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "result": "enchanted:blood_poppy",
+          "template": "enchanted:page/mutagen"
+        }
+      ]
+    }
+  ],
+  "title": "Кровавый мак"
+}

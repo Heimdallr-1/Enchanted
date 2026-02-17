@@ -1,0 +1,51 @@
+{
+  "assigned_items": [],
+  "icon": {
+    "count": 1,
+    "id": "minecraft:lightning_rod"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Ярость неба",
+          "template": "modopedia:page/headered_text",
+          "text": "Вызывает концентрированную грозу по краям круга, вызывая удар молнии.\n\nДополнение $(b)$(el:circle_magic/rites/waystone)связанного$(/el)$(/b) или $(b)$(el:circle_magic/rites/waystone_blooded)окровавленного$(/el)$(/b) путевого камня позволяет колдуну направлять грозу на точное место."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "components": [
+            {
+              "rite": "enchanted:sky_wrath",
+              "template": "enchanted:page/rite"
+            },
+            {
+              "rite": "enchanted:sky_wrath_charged",
+              "template": "enchanted:page/rite"
+            },
+            {
+              "rite": "enchanted:sky_wrath_waystone",
+              "template": "enchanted:page/rite"
+            },
+            {
+              "rite": "enchanted:sky_wrath_waystone_charged",
+              "template": "enchanted:page/rite"
+            },
+            {
+              "rite": "enchanted:sky_wrath_blooded",
+              "template": "enchanted:page/rite"
+            },
+            {
+              "rite": "enchanted:sky_wrath_blooded_charged",
+              "template": "enchanted:page/rite"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "title": "Ярость неба"
+}

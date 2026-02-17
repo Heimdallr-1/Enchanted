@@ -1,0 +1,33 @@
+{
+  "assigned_items": [
+    "enchanted:refined_evil"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:refined_evil"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Очищенное зло",
+          "template": "modopedia:page/headered_text",
+          "text": "Чистое, очищенное, конденсированное зло с применением алмазных паров.\n\nОчищенное зло по преимуществу используется для варки, а вдобавок немного в демонологии (учение о духах)."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "components": [
+            {
+              "recipe": "enchanted:distilling/diamond_vapour_ghast_tear",
+              "template": "enchanted:page/distillery"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "title": "Очищенное зло"
+}

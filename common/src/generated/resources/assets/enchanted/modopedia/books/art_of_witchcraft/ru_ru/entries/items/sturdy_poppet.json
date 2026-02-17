@@ -1,0 +1,29 @@
+{
+  "assigned_items": [
+    "enchanted:sturdy_poppet"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:sturdy_poppet"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Прочные куклы",
+          "template": "modopedia:page/headered_text",
+          "text": "$(b)Прочная кукла$(/b) — это улучшенная $(b)$(el:items/poppet)кукла$(/el)$(/b), оказывающая дополнительное усиление.\n\nПрочные куклы способны выдерживать двукратное использование, прежде чем сломаться после разового применения."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "recipe": "enchanted:spinning/sturdy_poppet",
+          "template": "enchanted:page/spinning"
+        }
+      ]
+    }
+  ],
+  "title": "Прочные куклы"
+}

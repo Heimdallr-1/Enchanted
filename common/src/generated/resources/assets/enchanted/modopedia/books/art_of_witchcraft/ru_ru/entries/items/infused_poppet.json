@@ -1,0 +1,29 @@
+{
+  "assigned_items": [
+    "enchanted:infused_poppet"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:infused_poppet"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Наполненные куклы",
+          "template": "modopedia:page/headered_text",
+          "text": "$(b)Наполненная кукла$(/b) — это улучшенная $(b)$(el:items/poppet)кукла$(/el)$(/b), способная усилить эффекты от изделия, вшитые в куклу.\n\nНаполненные куклы при срабатывании наложат дополнительный эффект, приложенный в ней."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "recipe": "enchanted:spinning/infused_poppet",
+          "template": "enchanted:page/spinning"
+        }
+      ]
+    }
+  ],
+  "title": "Наполненные куклы"
+}

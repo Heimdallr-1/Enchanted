@@ -1,0 +1,33 @@
+{
+  "assigned_items": [
+    "enchanted:hint_of_rebirth"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:hint_of_rebirth"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Нотка перерождения",
+          "template": "modopedia:page/headered_text",
+          "text": "Еловые деревья ассоциируются с воскресением божественного младенца, например, они считаются: символом перерождения, защиты, стойкости и закалки.\n\nВ общем, хорошо подходят в качестве дров."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "components": [
+            {
+              "recipe": "enchanted:byproduct/hint_of_rebirth_spruce_sapling",
+              "template": "enchanted:page/byproduct"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "title": "Нотка перерождения"
+}

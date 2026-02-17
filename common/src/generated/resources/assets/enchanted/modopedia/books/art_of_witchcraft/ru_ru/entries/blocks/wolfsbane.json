@@ -1,0 +1,31 @@
+{
+  "assigned_items": [
+    "enchanted:wolfsbane_flower",
+    "enchanted:wolfsbane_seeds"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:wolfsbane_flower"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Борец",
+          "template": "modopedia:page/headered_text",
+          "text": "«Аконит», народное название «Борец» — это многолетнее растение семейства «Лютиковые».\n\nКорни борца содержат аконитин: сильнодействующий нейротоксин и кардиотоксин. Вопреки распространённому мнению, название просто перевод с Древнегреческого языка. Цветок не похож на борец."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "block": "enchanted:wolfsbane[age=4]",
+          "template": "modopedia:page/block",
+          "text": "$(b)Получение:$(/b)\nВыпадает с высокой и низкой травы."
+        }
+      ]
+    }
+  ],
+  "title": "Борец"
+}

@@ -1,0 +1,58 @@
+{
+  "assigned_items": [
+    "enchanted:candelabra"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:candelabra"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Факела",
+          "template": "modopedia:page/headered_text",
+          "text": "Факел, подсвечник или свеча может быть эффективным средством повышения скорости перезарядки алтаря."
+        },
+        {
+          "recipe": "enchanted:candelabra",
+          "template": "modopedia:recipe/crafting",
+          "y": 70
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "components": [
+            {
+              "block": "minecraft:torch",
+              "offset_y": -15.0,
+              "scale": 1.8,
+              "template": "modopedia:page/block",
+              "text": "$(b)Факел:$()\n+0.5 множитель к скорости перезарядки.",
+              "text_offset": -30
+            },
+            {
+              "block": "minecraft:light_gray_candle",
+              "offset_y": -20.0,
+              "scale": 2.0,
+              "template": "modopedia:page/block",
+              "text": "$(b)Свеча:$()\n+1 множитель к скорости перезарядки.",
+              "text_offset": -30
+            },
+            {
+              "block": "enchanted:candelabra",
+              "offset_y": -15.0,
+              "scale": 1.75,
+              "template": "modopedia:page/block",
+              "text": "$(b)Подсвечник:$()\n+2 множитель к скорости перезарядки.",
+              "text_offset": -30
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "title": "Улучшение факелом"
+}

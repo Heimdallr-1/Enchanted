@@ -1,0 +1,41 @@
+{
+  "assigned_items": [
+    "enchanted:odour_of_purity"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:odour_of_purity"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Благоухание чистоты",
+          "template": "modopedia:page/headered_text",
+          "text": "Боярышник используется для получения мощного очистителя под названием «Благоухание чистоты», используемого при создании большинство чистых веществ.\n\nЭто дерево священо богиням Аанъя и Бригантии."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "components": [
+            {
+              "recipe": "enchanted:byproduct/odour_of_purity_hawthorn_sapling",
+              "template": "enchanted:page/byproduct"
+            },
+            {
+              "recipe": "enchanted:distilling/diamond_oil_of_vitriol",
+              "template": "enchanted:page/distillery"
+            },
+            {
+              "recipe": "enchanted:distilling/diamond_vapour_ghast_tear",
+              "template": "enchanted:page/distillery"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "title": "Благоухание чистоты"
+}

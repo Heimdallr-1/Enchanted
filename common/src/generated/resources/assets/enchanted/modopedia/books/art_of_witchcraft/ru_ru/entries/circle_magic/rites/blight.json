@@ -1,0 +1,27 @@
+{
+  "assigned_items": [],
+  "icon": {
+    "count": 1,
+    "id": "minecraft:spider_eye"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Упадок",
+          "template": "modopedia:page/headered_text",
+          "text": "Растения увядают, трава и земля — гниёт, животные болеют, а крестьяне превращаются в зомби на большой окрестности."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "rite": "enchanted:blight",
+          "template": "enchanted:page/rite"
+        }
+      ]
+    }
+  ],
+  "title": "Упадок"
+}

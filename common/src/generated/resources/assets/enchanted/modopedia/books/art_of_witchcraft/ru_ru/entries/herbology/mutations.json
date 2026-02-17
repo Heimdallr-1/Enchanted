@@ -1,0 +1,53 @@
+{
+  "assigned_items": [],
+  "icon": {
+    "count": 1,
+    "id": "minecraft:chorus_fruit"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Мутации",
+          "template": "modopedia:page/headered_text",
+          "text": "Пока множество растений природного происхождения, как правило, ведьмам гербология является необходимым для мутирования ныне существующих растений по своим нуждам.\n\nЭто осуществляется с помощью $(c:#582C69)$(b)$(el:items/mutandis)мутандиса$(/el)$(/b)$(/c) или $(c:#582C69)$(b)$(el:items/mutandis_extremis)мутандиса экстремиса$(/el)$(/b)$(/c)."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "header": "Мутандис",
+          "template": "modopedia:page/headered_text",
+          "text": "Применение мутандиса на блоке, он начнёт $(b)мутировать$(/b), что даёт ему возможность превратиться в иновидный блок на основе поблизости $(b)мутагенов$(/b)."
+        },
+        {
+          "images": [
+            "enchanted:textures/gui/modopedia/mutation.png"
+          ],
+          "template": "enchanted:framed_image",
+          "x": 10,
+          "y": 75
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "header": "Мутагены",
+          "template": "modopedia:page/headered_text",
+          "text": "$(b)Мутагены$(/b) — это блоки, которые следует поставить ведьме в окружающей зоне мутирующего растения. Чем больше мутагенов, тем с большей долей вероятности мутирует растение.\n\nЦентральный блок — мутирующее растение, а сами окружающие блоки — мутагены."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "result": "enchanted:rowan_sapling",
+          "template": "enchanted:page/mutagen"
+        }
+      ]
+    }
+  ],
+  "title": "Мутации"
+}

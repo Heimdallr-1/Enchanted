@@ -1,0 +1,35 @@
+{
+  "assigned_items": [
+    "enchanted:poppet"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:spinning_wheel"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Кукловедение",
+          "template": "modopedia:page/headered_text",
+          "text": "Кукловедение — это искусство создания кукол. Используя $(c:#582C69)$(b)$(el:blocks/spinning_wheel)прялку$(/el)$(/b)$(/c), чтобы вшить в неё магические материалы и связать с живым существом для его защиты либо вреда.\n\nЧтобы кукла действовала, она должна лежать в инвентаре намеченного существа или на $(b)$(el:blocks/poppet_shelf)полке для кукол$(/el)$(/b)."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "header": "Создание кукол",
+          "template": "modopedia:page/headered_text",
+          "text": "Кукол нужно сшить с другими материалами, используя $(b)$(el:blocks/spinning_wheel)прялку$(/el)$(/b): после создания они смогут давать эффект."
+        },
+        {
+          "recipe": "enchanted:poppet",
+          "template": "modopedia:recipe/crafting",
+          "y": 69
+        }
+      ]
+    }
+  ],
+  "title": "Теория кукол"
+}

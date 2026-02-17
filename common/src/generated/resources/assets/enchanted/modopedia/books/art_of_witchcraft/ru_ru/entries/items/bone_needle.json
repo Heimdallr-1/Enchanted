@@ -1,0 +1,29 @@
+{
+  "assigned_items": [
+    "enchanted:bone_needle"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:bone_needle"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Костяные иглы",
+          "template": "modopedia:page/headered_text",
+          "text": "Иглы — это важное звено множество инструментов, используемых ведьмовством, особенно в $(b)$(el:items/taglock_kit)наборе волшебного звена$(/el)$(/b) и $(b)куклах$(/b).\n\nОбстругав кость можно смастерить простую иглу."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "recipe": "enchanted:bone_needle",
+          "template": "modopedia:page/crafting"
+        }
+      ]
+    }
+  ],
+  "title": "Костяные иглы"
+}

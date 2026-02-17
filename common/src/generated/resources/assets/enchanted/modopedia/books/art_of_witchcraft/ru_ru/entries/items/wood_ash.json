@@ -1,0 +1,29 @@
+{
+  "assigned_items": [
+    "enchanted:wood_ash"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:wood_ash"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Зола",
+          "template": "modopedia:page/headered_text",
+          "text": "У элементарной золы масса применений, включая создание $(b)$(el:items/ritual_chalk)ритуального мелка$(/el)$(/b), и среди прочего костной муки.\n\nВвиду того, что у золы магические свойства отсутствуют — подойдёт сожжение любого саженца."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "recipe": "enchanted:wood_ash",
+          "template": "modopedia:page/cooking"
+        }
+      ]
+    }
+  ],
+  "title": "Зола"
+}

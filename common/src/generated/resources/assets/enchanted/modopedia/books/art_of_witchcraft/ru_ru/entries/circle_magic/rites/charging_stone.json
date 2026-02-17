@@ -1,0 +1,29 @@
+{
+  "assigned_items": [
+    "enchanted:attuned_stone_charged"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:attuned_stone_charged"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Камни зарядки",
+          "template": "modopedia:page/headered_text",
+          "text": "Извлеките силу, чтобы наполнить камень настройки волшебной энергией.\n\nКамень можно использовать в разных целях, например, заменить алтарь во время совершения ритуала в магическом круге."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "rite": "enchanted:charging_stone",
+          "template": "enchanted:page/rite"
+        }
+      ]
+    }
+  ],
+  "title": "Камни зарядки"
+}

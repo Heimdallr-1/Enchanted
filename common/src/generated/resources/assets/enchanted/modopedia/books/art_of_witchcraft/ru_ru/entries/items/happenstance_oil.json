@@ -1,0 +1,29 @@
+{
+  "assigned_items": [
+    "enchanted:happenstance_oil"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:happenstance_oil"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Масло случайности",
+          "template": "modopedia:page/headered_text",
+          "text": "Ясновидение — это незаменимый ведьмин инструмент для поиска информации.\n\nМасло случайности — это ключевой компонент хрустальных шаров; при том, что употреблять масло не рекомендуется — оно может улучшить ваше зрение."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "recipe": "enchanted:kettle/happenstance_oil",
+          "template": "enchanted:recipe/kettle"
+        }
+      ]
+    }
+  ],
+  "title": "Масло случайности"
+}

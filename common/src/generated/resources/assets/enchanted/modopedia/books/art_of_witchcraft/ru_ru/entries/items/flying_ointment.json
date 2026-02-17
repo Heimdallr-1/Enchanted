@@ -1,0 +1,29 @@
+{
+  "assigned_items": [
+    "enchanted:flying_ointment"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:flying_ointment"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Мазь полёта",
+          "template": "modopedia:page/headered_text",
+          "text": "Мазь полёта — это взвар, который, по всей видимости, не подчиняется гравитации. Что-либо, что наполнится с её помощью, получит свойство полёта. В том числе и люди, испившие её.\n\nВ частности, её можно применить на $(b)$(el:circle_magic/rites/infuse_broom)метлу$(/el)$(/b)."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "recipe": "enchanted:kettle/flying_ointment",
+          "template": "enchanted:recipe/kettle"
+        }
+      ]
+    }
+  ],
+  "title": "Мазь полёта"
+}

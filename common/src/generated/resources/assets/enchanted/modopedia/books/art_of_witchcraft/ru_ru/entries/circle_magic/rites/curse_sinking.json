@@ -1,0 +1,27 @@
+{
+  "assigned_items": [],
+  "icon": {
+    "count": 1,
+    "id": "minecraft:water_bucket"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Тяжесть",
+          "template": "modopedia:page/headered_text",
+          "text": "Проклинает дабы утяжелить страдающего в воде и воздухе, затрудняя плавание или полёт.\n\nВес цели будет увеличиваться в зависимости от уровня проклятия."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "rite": "enchanted:curse_sinking",
+          "template": "enchanted:page/rite"
+        }
+      ]
+    }
+  ],
+  "title": "Тяжесть"
+}

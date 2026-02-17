@@ -1,0 +1,29 @@
+{
+  "assigned_items": [
+    "enchanted:brew_of_love"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:brew_of_love"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Взвар любви",
+          "template": "modopedia:page/headered_text",
+          "text": "Зелья приворота или любви считаются одним из самых крайне искомых типов взваров.\n\nБросив взвар, испускаемые пары заставят близлежащих животных влюбиться до безумия."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "recipe": "enchanted:kettle/brew_of_love",
+          "template": "enchanted:recipe/kettle"
+        }
+      ]
+    }
+  ],
+  "title": "Взвар любви"
+}

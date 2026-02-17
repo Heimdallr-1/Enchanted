@@ -1,0 +1,59 @@
+{
+  "assigned_items": [
+    "enchanted:distillery"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:distillery"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Перегонка",
+          "template": "modopedia:page/headered_text",
+          "text": "Перегонный куб даёт ведьмам возможность разделять материалы на их компоненты, используя различия в температурах кипения и конденсации.\n\nПроцесс тратит $(b)$(el:blocks/altar)силу алтаря$(/el)$(/b), поэтому перегонный куб следует поставить соответствующим образом."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "type": "modopedia:header",
+          "text": "template.modopedia.crafting_recipe"
+        },
+        {
+          "type": "modopedia:separator",
+          "y": 10
+        },
+        {
+          "type": "modopedia:multiblock",
+          "height": 50,
+          "multiblock": {
+            "type": "modopedia:dense",
+            "key": {
+              "D": {
+                "type": "modopedia:simple",
+                "states": [
+                  "enchanted:distillery[lit=true]"
+                ]
+              }
+            },
+            "pattern": [
+              [
+                "D"
+              ]
+            ]
+          },
+          "y": 10
+        },
+        {
+          "recipe": "enchanted:distillery",
+          "template": "modopedia:recipe/crafting",
+          "y": 70
+        }
+      ]
+    }
+  ],
+  "title": "Перегонка"
+}

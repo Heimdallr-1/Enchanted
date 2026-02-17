@@ -1,0 +1,36 @@
+{
+  "assigned_items": [
+    "enchanted:witch_cauldron",
+    "enchanted:anointing_paste"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:witch_cauldron"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Ведьмин котёл",
+          "template": "modopedia:page/headered_text",
+          "text": "На настоящее время котёл переписывается и не работает. Пользуйтесь котелком."
+        },
+        {
+          "recipe": "enchanted:anointing_paste",
+          "template": "modopedia:recipe/crafting",
+          "y": 70
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "block": "enchanted:witch_cauldron",
+          "template": "modopedia:page/block",
+          "text": "$(b)Получение:$(/b)\nПримените смазывающую пасту на котле."
+        }
+      ]
+    }
+  ],
+  "title": "Ведьмин котёл"
+}

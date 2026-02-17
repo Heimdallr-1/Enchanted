@@ -1,0 +1,29 @@
+{
+  "assigned_items": [
+    "enchanted:redstone_soup"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:redstone_soup"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Редстоуновый суп",
+          "template": "modopedia:page/headered_text",
+          "text": "Редстоуновый суп в основном выполняет роль основы других настоек и взваров. Помимо сего, совсем не обладает выраженных эффектов.\n\nВыпивание редстоунового супа ненадолго увеличит ваше здоровье."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "recipe": "enchanted:kettle/redstone_soup",
+          "template": "enchanted:recipe/kettle"
+        }
+      ]
+    }
+  ],
+  "title": "Редстоуновый суп"
+}

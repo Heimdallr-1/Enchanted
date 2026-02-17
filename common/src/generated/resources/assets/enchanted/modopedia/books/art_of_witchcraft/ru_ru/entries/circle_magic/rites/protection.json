@@ -1,0 +1,43 @@
+{
+  "assigned_items": [],
+  "icon": {
+    "count": 1,
+    "id": "minecraft:shield"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Защита",
+          "template": "modopedia:page/headered_text",
+          "text": "Призывает непроходимый купол, через которого можно пройти крадущимся игрокам.\n\nДополнение $(b)$(el:circle_magic/rites/waystone)связанного$(/el)$(/b) путевого камня позволяет колдуну вызывать купол на определённом месте."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "components": [
+            {
+              "rite": "enchanted:protection",
+              "template": "enchanted:page/rite"
+            },
+            {
+              "rite": "enchanted:protection_large",
+              "template": "enchanted:page/rite"
+            },
+            {
+              "rite": "enchanted:protection_waystone",
+              "template": "enchanted:page/rite"
+            },
+            {
+              "rite": "enchanted:protection_large_waystone",
+              "template": "enchanted:page/rite"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "title": "Защита"
+}

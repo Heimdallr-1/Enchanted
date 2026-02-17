@@ -1,0 +1,33 @@
+{
+  "assigned_items": [
+    "enchanted:demonic_blood"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:demonic_blood"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Демоническая кровь",
+          "template": "modopedia:page/headered_text",
+          "text": "Кровь демона имеет множество применений в ведьмовстве. При том что она, как правило, добывается от демонов, её также можно очистить от ряда других материалов.\n\nОсновное применение заключается в инфузиях и проклятиях."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "components": [
+            {
+              "recipe": "enchanted:distilling/diamond_vapour_blaze_rod",
+              "template": "enchanted:page/distillery"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "title": "Демоническая кровь"
+}

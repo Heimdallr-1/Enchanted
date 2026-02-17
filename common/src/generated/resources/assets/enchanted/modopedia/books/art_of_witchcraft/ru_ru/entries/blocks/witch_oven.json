@@ -1,0 +1,109 @@
+{
+  "assigned_items": [
+    "enchanted:witch_oven",
+    "enchanted:fume_funnel",
+    "enchanted:fume_funnel_filtered",
+    "enchanted:fume_filter"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:witch_oven"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Собирание газов",
+          "template": "modopedia:page/headered_text",
+          "text": "Ведьмина печь — это модифицированная печь, служащая для собирания побочных продуктов и газов, получаемых за счёт сжигания материалов.\n\nЭта печь не способна перерабатывать руды, чего не скажешь о печи. Поместите $(b)$(el:items/clay_jar)глиняный кувшин$(/el)$(/b) в левый слот, а в центральный уголь и т.д., для собирания газа."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "type": "modopedia:header",
+          "text": "template.modopedia.crafting_recipe"
+        },
+        {
+          "type": "modopedia:separator",
+          "y": 10
+        },
+        {
+          "type": "modopedia:multiblock",
+          "height": 50,
+          "multiblock": {
+            "type": "modopedia:dense",
+            "key": {
+              "W": {
+                "type": "modopedia:simple",
+                "states": [
+                  "enchanted:witch_oven[lit=true]"
+                ]
+              }
+            },
+            "pattern": [
+              [
+                "W"
+              ]
+            ]
+          },
+          "y": 10
+        },
+        {
+          "recipe": "enchanted:witch_oven",
+          "template": "modopedia:recipe/crafting",
+          "y": 70
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "header": "Вытяжки",
+          "template": "modopedia:page/headered_text",
+          "text": "Добавление вытяжек слева и справа ведьминой печи может значительно увеличить накопление."
+        },
+        {
+          "recipe": "enchanted:fume_funnel",
+          "template": "modopedia:recipe/crafting",
+          "y": 68
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "multiblock_id": "enchanted:witch_oven",
+          "offset_y": -10.0,
+          "template": "modopedia:page/multiblock",
+          "text": "Наверх ведьминой печи можно установить третью вытяжку в качестве декоративного дымохода."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "header": "Газовые фильтры",
+          "template": "modopedia:page/headered_text",
+          "text": "Для увеличения собирания можно добавить газовый фильтр к вытяжкам. Благодаря двум фильтрам — успех гарантирован."
+        },
+        {
+          "recipe": "enchanted:fume_filter",
+          "template": "modopedia:recipe/crafting",
+          "y": 70
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "block": "enchanted:fume_funnel_filtered[lit=true]",
+          "template": "modopedia:page/block",
+          "text": "$(b)Получение:$(/b)\nПримените газовый фильтр на вытяжке."
+        }
+      ]
+    }
+  ],
+  "title": "Собирание газов"
+}

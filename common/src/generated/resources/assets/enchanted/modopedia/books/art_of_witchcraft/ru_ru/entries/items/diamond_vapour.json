@@ -1,0 +1,33 @@
+{
+  "assigned_items": [
+    "enchanted:diamond_vapour"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:diamond_vapour"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Алмазные пары",
+          "template": "modopedia:page/headered_text",
+          "text": "Используя купоросное масло, можно растворить, да ещё и испарить алмазы, чтобы образовать мощный чистящий агент.\n\nАлмазные пары необходимы для того, чтобы дистиллировать некоторое количество других материалов."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "components": [
+            {
+              "recipe": "enchanted:distilling/diamond_oil_of_vitriol",
+              "template": "enchanted:page/distillery"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "title": "Алмазные пары"
+}

@@ -1,0 +1,43 @@
+{
+  "assigned_items": [
+    "enchanted:earth_poppet",
+    "enchanted:infused_earth_poppet",
+    "enchanted:sturdy_earth_poppet"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:earth_poppet"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Земля",
+          "template": "modopedia:page/headered_text",
+          "text": "Если получатель получил достаточно урона от падения и умер бы, наоборот, он продолжит жить с одним сердцем.\n\nЕсли наполнена, получатель также получает $(b)$(t:Дает устойчивость к урону от падения)сопротивление к падению$(/t)$(/b) в течение 10 секунд."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "components": [
+            {
+              "recipe": "enchanted:spinning/earth_poppet",
+              "template": "enchanted:page/spinning"
+            },
+            {
+              "recipe": "enchanted:spinning/infused_earth_poppet",
+              "template": "enchanted:page/spinning"
+            },
+            {
+              "recipe": "enchanted:spinning/sturdy_earth_poppet",
+              "template": "enchanted:page/spinning"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "title": "Земля"
+}

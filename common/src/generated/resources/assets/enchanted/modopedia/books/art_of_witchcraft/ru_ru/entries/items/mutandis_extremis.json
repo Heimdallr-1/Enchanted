@@ -1,0 +1,29 @@
+{
+  "assigned_items": [
+    "enchanted:mutandis_extremis"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:mutandis_extremis"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Мутандис экстремис",
+          "template": "modopedia:page/headered_text",
+          "text": "Мутандис экстремис представляет собой улучшенную форму $(b)$(el:items/mutandis)мутандиса$(/el)$(/b), выполняя схожую функцию.\n\nЭкстремис может создавать более совершенные $(b)$(el:herbology/mutations)мутации$(/el)$(/b), например, «$(b)$(el:blocks/blood_poppy)Кровавые маки$(/el)$(/b)»."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "recipe": "enchanted:kettle/mutandis_extremis",
+          "template": "enchanted:recipe/kettle"
+        }
+      ]
+    }
+  ],
+  "title": "Мутандис экстремис"
+}

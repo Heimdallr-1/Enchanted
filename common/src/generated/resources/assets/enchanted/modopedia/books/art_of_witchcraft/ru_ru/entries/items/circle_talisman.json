@@ -1,0 +1,29 @@
+{
+  "assigned_items": [
+    "enchanted:circle_talisman"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:circle_talisman"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Талисман для круга",
+          "template": "modopedia:page/headered_text",
+          "text": "Используется для сбора и хранения глифов через $(b)$(el:circle_magic/rites/bind_talisman)ритуал связки$(/el)$(/b). Талисманы — это незаменимый инструмент для магических кругов.\n\nСовокупные и разукрашенные символы, выгравированные на талисмане, в свою очередь могут указывать на состоятельность круга."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "recipe": "enchanted:circle_talisman",
+          "template": "modopedia:page/crafting"
+        }
+      ]
+    }
+  ],
+  "title": "Талисман для круга"
+}

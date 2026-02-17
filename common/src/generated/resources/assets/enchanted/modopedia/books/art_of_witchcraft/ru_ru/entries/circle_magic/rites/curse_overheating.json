@@ -1,0 +1,27 @@
+{
+  "assigned_items": [],
+  "icon": {
+    "count": 1,
+    "id": "minecraft:blaze_powder"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Перегрев",
+          "template": "modopedia:page/headered_text",
+          "text": "Проклинает существо перегревом, заставляя её время от времени загораться в горячих биомах.\n\nСрок огня увеличивается в зависимости от уровня проклятия."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "rite": "enchanted:curse_overheating",
+          "template": "enchanted:page/rite"
+        }
+      ]
+    }
+  ],
+  "title": "Перегрев"
+}

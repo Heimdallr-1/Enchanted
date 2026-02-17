@@ -1,0 +1,30 @@
+{
+  "assigned_items": [
+    "enchanted:taglock",
+    "enchanted:taglock_kit"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:taglock"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Волшебные звенья",
+          "template": "modopedia:page/headered_text",
+          "text": "Вам временами может потребоваться изобразить другого человека с целью исполнить магию. Это можно осуществить с помощью $(b)набора волшебного звена$(/b).\n\nНажатие ПКМ волшебным звеном на игроке или его кровати, сможете собрать образец для использования в магии."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "recipe": "enchanted:taglock_kit",
+          "template": "modopedia:page/crafting"
+        }
+      ]
+    }
+  ],
+  "title": "Волшебные звенья"
+}

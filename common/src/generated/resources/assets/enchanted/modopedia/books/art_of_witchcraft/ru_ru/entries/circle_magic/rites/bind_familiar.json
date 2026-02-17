@@ -1,0 +1,27 @@
+{
+  "assigned_items": [],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:arthana"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Фамильяры",
+          "template": "modopedia:page/headered_text",
+          "text": "Свяжите фамильяра с собой. Этот спутник даёт немало благ и преимуществ в зависимости от типа существа.\n\nПриручённое животное должно быть у круга.\n\nГлава «$(b)$(cl:familiars)Фамильяры$(/cl)$(/b)» описывает это развёрнуто."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "rite": "enchanted:bind_familiar",
+          "template": "enchanted:page/rite"
+        }
+      ]
+    }
+  ],
+  "title": "Фамильяры"
+}

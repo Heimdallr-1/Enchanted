@@ -1,0 +1,17 @@
+{
+  "display_on_front_page": false,
+  "entries": [
+    "circle_magic/rites/charging_stone",
+    "circle_magic/rites/bind_familiar",
+    "circle_magic/rites/bind_talisman",
+    "circle_magic/rites/waystone",
+    "circle_magic/rites/waystone_blooded",
+    "circle_magic/rites/infuse_broom"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "minecraft:chain"
+  },
+  "landing_text": "Связка — это акт установки связи с: существом, объектом, магическим эффектом или свойством, например, наполнение метлы силой полёта.\n\nТакого рода ритуалы объясняются в этой главе.",
+  "title": "Связка"
+}

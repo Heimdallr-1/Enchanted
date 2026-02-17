@@ -1,0 +1,51 @@
+{
+  "assigned_items": [],
+  "icon": {
+    "count": 1,
+    "id": "minecraft:skeleton_skull"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Черепа",
+          "template": "modopedia:page/headered_text",
+          "text": "Черепа способны увеличивать силу и скорость перезарядки алтаря с переменной эффективностью.\n\nЧеловеческие черепа весьма эффективно направляют энергию."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "components": [
+            {
+              "block": "minecraft:skeleton_skull",
+              "offset_y": -20.0,
+              "scale": 1.6,
+              "template": "modopedia:page/block",
+              "text": "$(b)Череп скелета:$()\n+1 множитель к силе.\n+1 множитель к скорости перезарядки.",
+              "text_offset": -25
+            },
+            {
+              "block": "minecraft:wither_skeleton_skull",
+              "offset_y": -20.0,
+              "scale": 1.6,
+              "template": "modopedia:page/block",
+              "text": "$(b)Череп визер-скелета:$()\n+2 множитель к силе.\n+2 множитель к скорости перезарядки.",
+              "text_offset": -25
+            },
+            {
+              "block": "minecraft:player_head",
+              "offset_y": -20.0,
+              "scale": 1.6,
+              "template": "modopedia:page/block",
+              "text": "$(b)Череп игрока:$()\n+2.5 множитель к силе.\n+3 множитель к скорости перезарядки.",
+              "text_offset": -25
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "title": "Улучшение черепом"
+}

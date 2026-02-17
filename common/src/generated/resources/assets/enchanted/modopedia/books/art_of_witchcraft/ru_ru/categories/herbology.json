@@ -1,0 +1,20 @@
+{
+  "children": [
+    "herbology/mutated_plants"
+  ],
+  "entries": [
+    "blocks/belladonna",
+    "blocks/water_artichoke",
+    "blocks/mandrake",
+    "blocks/snowbell",
+    "blocks/wolfsbane",
+    "blocks/garlic"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:wolfsbane_flower"
+  },
+  "landing_text": "Ведьмовство нередко требует использовать различные растения, в то время как другие требуют мутации.\n\nЭта глава предназначена рассказать вам, как получать эти растения и что делать с ними.",
+  "sort_num": 2,
+  "title": "Травология"
+}

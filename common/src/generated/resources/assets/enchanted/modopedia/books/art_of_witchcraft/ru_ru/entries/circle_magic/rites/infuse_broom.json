@@ -1,0 +1,29 @@
+{
+  "assigned_items": [
+    "enchanted:enchanted_broomstick"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:enchanted_broomstick"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Метла",
+          "template": "modopedia:page/headered_text",
+          "text": "Неприметную $(b)$(el:items/broom)метлу$(/el)$(/b) можно наполнить силой полёта с помощью $(b)$(el:items/flying_ointment)летающей слизи$(/el)$(/b), создавая классическое и эффективное транспортное средство.\n\nОбъединение ведьм рекомендует практиковаться на малой высоте."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "rite": "enchanted:infuse_broom",
+          "template": "enchanted:page/rite"
+        }
+      ]
+    }
+  ],
+  "title": "Метла"
+}

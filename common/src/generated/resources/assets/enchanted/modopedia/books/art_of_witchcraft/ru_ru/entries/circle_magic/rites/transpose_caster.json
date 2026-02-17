@@ -1,0 +1,35 @@
+{
+  "assigned_items": [],
+  "icon": {
+    "count": 1,
+    "id": "minecraft:ender_pearl"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Перемещение колдуна",
+          "template": "modopedia:page/headered_text",
+          "text": "Ритуал телепортирует колдуна на местоположение, содержащее в $(b)$(el:circle_magic/rites/circle_magic/binding/waystone)связанном$(/el)$(/b) или $(b)$(el:circle_magic/rites/circle_magic/binding/waystone_blooded)окровавленном$(/el)$(/b) путевом камне.\n\nКак сообщает объединение ведьм, временами существа оставляли после себя части тел."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "components": [
+            {
+              "rite": "enchanted:transpose_caster",
+              "template": "enchanted:page/rite"
+            },
+            {
+              "rite": "enchanted:transpose_caster_blooded",
+              "template": "enchanted:page/rite"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "title": "Перемещение колдуна"
+}

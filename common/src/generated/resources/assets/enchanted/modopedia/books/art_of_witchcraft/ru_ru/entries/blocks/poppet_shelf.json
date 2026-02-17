@@ -1,0 +1,59 @@
+{
+  "assigned_items": [
+    "enchanted:poppet_shelf"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:poppet_shelf"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Полка для кукол",
+          "template": "modopedia:page/headered_text",
+          "text": "Полка для кукол позволяет $(b)$(cl:poppetry)куклам$(/cl)$(/b) оставаться активированными, не находясь в игроке инвентаря.\n\nОдна полка способна вмещать не более пяти кукол, принадлежащих какому-либо игроку."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "type": "modopedia:header",
+          "text": "template.modopedia.crafting_recipe"
+        },
+        {
+          "type": "modopedia:separator",
+          "y": 10
+        },
+        {
+          "type": "modopedia:multiblock",
+          "height": 50,
+          "multiblock": {
+            "type": "modopedia:dense",
+            "key": {
+              "D": {
+                "type": "modopedia:simple",
+                "states": [
+                  "enchanted:poppet_shelf"
+                ]
+              }
+            },
+            "pattern": [
+              [
+                "D"
+              ]
+            ]
+          },
+          "y": 10
+        },
+        {
+          "recipe": "enchanted:poppet_shelf",
+          "template": "modopedia:recipe/crafting",
+          "y": 70
+        }
+      ]
+    }
+  ],
+  "title": "Полка для кукол"
+}

@@ -1,0 +1,27 @@
+{
+  "assigned_items": [],
+  "icon": {
+    "count": 1,
+    "id": "minecraft:raw_iron"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Преобразование железа",
+          "template": "modopedia:page/headered_text",
+          "text": "Преобразует всё полезное железо из-под круга на поверхность, игнорируя камень.\n\nРитуал уничтожит всю руду в круге. После каждого использования ритуал следует переносить."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "rite": "enchanted:transpose_iron",
+          "template": "enchanted:page/rite"
+        }
+      ]
+    }
+  ],
+  "title": "Преобразование железа"
+}

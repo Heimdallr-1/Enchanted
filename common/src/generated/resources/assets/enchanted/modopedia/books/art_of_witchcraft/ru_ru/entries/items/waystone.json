@@ -1,0 +1,29 @@
+{
+  "assigned_items": [
+    "enchanted:waystone"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:waystone"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Путевой камень",
+          "template": "modopedia:page/headered_text",
+          "text": "Путевой камень — это тип камня, способный связывать местоположение блока или существа, к тому же используется, чтобы выставить его в магическом круге.\n\nЭто можно осуществить через $(b)$(cl:circle_magic/binding)ритуал связки$(/cl)$(/b)."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "recipe": "enchanted:waystone",
+          "template": "modopedia:page/crafting"
+        }
+      ]
+    }
+  ],
+  "title": "Путевой камень"
+}

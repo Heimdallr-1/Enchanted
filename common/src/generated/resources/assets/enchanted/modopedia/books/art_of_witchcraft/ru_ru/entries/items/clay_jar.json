@@ -1,0 +1,45 @@
+{
+  "assigned_items": [
+    "enchanted:clay_jar",
+    "enchanted:soft_clay_jar"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:clay_jar"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Глиняные кувшины",
+          "template": "modopedia:page/headered_text",
+          "text": "Контейнер для хранения материалов, получаемых во время собирания газов или дистилляции — крайне важен ведьмам.\n\nОбычный глиняный кувшин хорошо подходит для этой цели."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "type": "modopedia:header",
+          "text": "template.modopedia.recipe"
+        },
+        {
+          "type": "modopedia:separator",
+          "y": 10
+        },
+        {
+          "recipe": "enchanted:clay_jar",
+          "template": "modopedia:recipe/cooking",
+          "tooltip": [],
+          "y": 30
+        },
+        {
+          "recipe": "enchanted:soft_clay_jar",
+          "template": "modopedia:recipe/crafting",
+          "y": 70
+        }
+      ]
+    }
+  ],
+  "title": "Глиняные кувшины"
+}

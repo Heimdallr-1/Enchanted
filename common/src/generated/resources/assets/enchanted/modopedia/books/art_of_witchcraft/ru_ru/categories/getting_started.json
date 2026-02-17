@@ -1,0 +1,23 @@
+{
+  "children": [
+    "getting_started/altars"
+  ],
+  "entries": [
+    "items/arthana",
+    "items/earmuffs",
+    "items/broom",
+    "items/taglock_kit",
+    "items/bone_needle",
+    "items/attuned_stone",
+    "items/waystone",
+    "items/wood_ash",
+    "items/quicklime",
+    "items/circle_talisman"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:arthana"
+  },
+  "landing_text": "Чтобы приступить к ведьмовству, перво-наперво следует знать о базовых инструментах и снаряжении, используемых ведьмами.\n\nЭта глава расскажет всё, что вам нужно знать о том, как приступить в роли «Ведьмы».",
+  "title": "Первые шаги"
+}

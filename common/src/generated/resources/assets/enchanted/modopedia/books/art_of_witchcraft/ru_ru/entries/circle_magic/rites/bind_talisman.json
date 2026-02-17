@@ -1,0 +1,35 @@
+{
+  "assigned_items": [],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:circle_talisman"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Талисман",
+          "template": "modopedia:page/headered_text",
+          "text": "$(b)$(el:items/circle_talisman)Талисманы для круга$(/el)$(/b) используется, чтобы легко забрать и переместить глифы, сокращая расход мелка.\n\nСвязанный талисман можно использовать на земле, чтобы поместить хранимые глифы.\n\nРаботает со всеми глифами."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "components": [
+            {
+              "rite": "enchanted:bind_talisman",
+              "template": "enchanted:page/rite"
+            },
+            {
+              "rite": "enchanted:bind_talisman_charged",
+              "template": "enchanted:page/rite"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "title": "Талисман"
+}

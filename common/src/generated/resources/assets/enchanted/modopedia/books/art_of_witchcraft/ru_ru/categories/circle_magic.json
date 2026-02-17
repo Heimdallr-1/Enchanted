@@ -1,0 +1,17 @@
+{
+  "children": [
+    "circle_magic/tutorial",
+    "circle_magic/binding",
+    "circle_magic/creature",
+    "circle_magic/curses",
+    "circle_magic/transposition",
+    "circle_magic/world"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:circle_talisman"
+  },
+  "landing_text": "Магический круг — это практика использования мелковых кругов, к тому же источник проявления сложных магических явлений.\n\nВ этой главе подробно описаны основы магического круга и известные ритуалы.",
+  "sort_num": 5,
+  "title": "Магический круг"
+}

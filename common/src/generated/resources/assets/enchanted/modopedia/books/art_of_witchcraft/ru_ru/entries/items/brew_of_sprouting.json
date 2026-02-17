@@ -1,0 +1,29 @@
+{
+  "assigned_items": [
+    "enchanted:brew_of_sprouting"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:brew_of_sprouting"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Взвар ветвления",
+          "template": "modopedia:page/headered_text",
+          "text": "Замедление противника в бою может быть полезным, дабы не оказаться у края гроба.\n\nВзвар ветвления используется для опутывания корнями существ и людей.\n\n$(b)Эта возможность скоро появится.$(/b)"
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "recipe": "enchanted:kettle/brew_of_sprouting",
+          "template": "enchanted:recipe/kettle"
+        }
+      ]
+    }
+  ],
+  "title": "Взвар ветвления"
+}

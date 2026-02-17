@@ -1,0 +1,27 @@
+{
+  "assigned_items": [],
+  "icon": {
+    "count": 1,
+    "id": "minecraft:iron_bars"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Плен",
+          "template": "modopedia:page/headered_text",
+          "text": "Создаёт огненную клетку, удерживая монстров внутри круга.\n\nНесмотря на мощную силу, барьер никоим образом не пробиваемый. Снаряды и телепортация могут прорваться как ни в чём не бывало."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "rite": "enchanted:imprisonment",
+          "template": "enchanted:page/rite"
+        }
+      ]
+    }
+  ],
+  "title": "Плен"
+}

@@ -1,0 +1,33 @@
+{
+  "assigned_items": [
+    "enchanted:oil_of_vitriol"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:oil_of_vitriol"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Серная кислота",
+          "template": "modopedia:page/headered_text",
+          "text": "Бесцветная, слегка желтоватая жидкость, которая язвительно вступает в реакцию с органическим веществом, похоже, оставляет его химически обжигаться и чернеть.\n\nСерная кислота растворяет большинство веществ, вступающих в контакт с ним."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "components": [
+            {
+              "recipe": "enchanted:distilling/foul_fume_quicklime",
+              "template": "enchanted:page/distillery"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "title": "Серная кислота"
+}

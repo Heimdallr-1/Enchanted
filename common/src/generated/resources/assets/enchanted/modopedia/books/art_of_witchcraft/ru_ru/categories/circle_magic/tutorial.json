@@ -1,0 +1,18 @@
+{
+  "display_on_front_page": false,
+  "entries": [
+    "circle_magic/tutorial/performing_rites",
+    "items/golden_chalk",
+    "items/ritual_chalk",
+    "items/nether_chalk",
+    "items/otherwhere_chalk",
+    "items/broom",
+    "items/circle_talisman"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:circle_talisman"
+  },
+  "landing_text": "Совершение ритуала в магическом круге — это сложный и трудный процесс, требующий совокупность мелковых кругов и цель.\n\nВ этой главе объясняется основы и несколько важных деталей.",
+  "title": "Фундаментальная теория"
+}

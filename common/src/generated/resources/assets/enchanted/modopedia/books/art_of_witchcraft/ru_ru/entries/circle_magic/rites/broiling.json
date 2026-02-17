@@ -1,0 +1,27 @@
+{
+  "assigned_items": [],
+  "icon": {
+    "count": 1,
+    "id": "minecraft:beef"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Обжарка",
+          "template": "modopedia:page/headered_text",
+          "text": "Призывает кольцо пламени, которое быстро готовит сырую пищу, выброшенное в круг.\n\nЖар настолько силён, что какая-та пища может сгореть дотла."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "rite": "enchanted:broiling",
+          "template": "enchanted:page/rite"
+        }
+      ]
+    }
+  ],
+  "title": "Обжарка"
+}

@@ -1,0 +1,15 @@
+{
+  "display_on_front_page": false,
+  "entries": [
+    "blocks/altar",
+    "getting_started/torch_upgrades",
+    "getting_started/skull_upgrades",
+    "getting_started/chalice_upgrades"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:altar"
+  },
+  "landing_text": "Алтарь действует источником магической энергии для мелковых кругов и большей части ведьминских инструментов.\n\nКак правило, количество естественной энергии лучше определяет эффективность алтаря благодаря разнообразию растений.",
+  "title": "Алтари"
+}

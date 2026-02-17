@@ -1,0 +1,29 @@
+{
+  "assigned_items": [
+    "enchanted:quicklime"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:quicklime"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Негашёная известь",
+          "template": "modopedia:page/headered_text",
+          "text": "Гашёная известь или негашёная известь — это один из первичных ингредиентов $(b)$(el:items/gypsum)гипса$(/el)$(/b): создаётся из кальцита.\n\nНегашёную известь можно кинуть на игрока, чтобы лишить его зрения на какое-то время."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "recipe": "enchanted:quicklime",
+          "template": "modopedia:page/cooking"
+        }
+      ]
+    }
+  ],
+  "title": "Негашёная известь"
+}

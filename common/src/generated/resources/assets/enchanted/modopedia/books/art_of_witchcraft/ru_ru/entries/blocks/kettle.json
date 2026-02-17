@@ -1,0 +1,35 @@
+{
+  "assigned_items": [
+    "enchanted:kettle"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:kettle"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Котелок",
+          "template": "modopedia:page/headered_text",
+          "text": "Котелок, используемый для создания взваров и настоек является критически важной утварью для ведьмы."
+        },
+        {
+          "recipe": "enchanted:kettle",
+          "template": "modopedia:recipe/crafting",
+          "y": 65
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "type": "modopedia:multiblock",
+          "multiblock_id": "enchanted:kettle",
+          "y": 20
+        }
+      ]
+    }
+  ],
+  "title": "Котелок"
+}

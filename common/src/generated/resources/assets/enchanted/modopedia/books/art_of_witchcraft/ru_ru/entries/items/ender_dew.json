@@ -1,0 +1,33 @@
+{
+  "assigned_items": [
+    "enchanted:ender_dew"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:ender_dew"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Чистота Эндера",
+          "template": "modopedia:page/headered_text",
+          "text": "Эндер-жемчуг, который позволяет людям телепортироваться, можно перегнать в чистейшую форму под названием «Чистота Эндера».\n\nЭто вещество (в жидком состоянии), содержит свойства перемещения эндер-жемчуга, хорошо подходящие для варки."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "components": [
+            {
+              "recipe": "enchanted:distilling/ender_pearl",
+              "template": "enchanted:page/distillery"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "title": "Чистота Эндера"
+}

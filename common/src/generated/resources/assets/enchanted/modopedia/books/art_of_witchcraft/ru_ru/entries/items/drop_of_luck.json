@@ -1,0 +1,29 @@
+{
+  "assigned_items": [
+    "enchanted:drop_of_luck"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:drop_of_luck"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Капля везения",
+          "template": "modopedia:page/headered_text",
+          "text": "Жидкое везение, либо капля везения — это зелье, увеличивающее удачу испившего, к тому же используется в ритуалах или созданиях магических предметов.\n\nКак известно, ключевой компонент в $(b)$(el:items/redstone_soup)редстоуновом супе$()."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "recipe": "enchanted:kettle/drop_of_luck",
+          "template": "enchanted:recipe/kettle"
+        }
+      ]
+    }
+  ],
+  "title": "Капля везения"
+}

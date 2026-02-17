@@ -1,0 +1,29 @@
+{
+  "assigned_items": [
+    "enchanted:earmuffs"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:earmuffs"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Звукопогл. наушники",
+          "template": "modopedia:page/headered_text",
+          "text": "Взаимодействуя с «Мандрагорами», «Банши» и другими громкоголосыми существами; весьма важно защитить свои уши.\n\n$(b)Звукопоглощающие наушники$(/b) могут заглушать оглушительные звуки, приемлемо их передавая."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "recipe": "enchanted:earmuffs",
+          "template": "modopedia:page/crafting"
+        }
+      ]
+    }
+  ],
+  "title": "Звукопоглощающие наушники"
+}

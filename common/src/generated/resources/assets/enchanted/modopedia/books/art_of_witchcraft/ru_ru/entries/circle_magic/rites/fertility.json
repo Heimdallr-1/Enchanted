@@ -1,0 +1,35 @@
+{
+  "assigned_items": [],
+  "icon": {
+    "count": 1,
+    "id": "minecraft:emerald"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Плодородие",
+          "template": "modopedia:page/headered_text",
+          "text": "Масштабный ритуал восстановления: выращивает растения, лечит больных животных и полностью излечивает крестьянин-зомби.\n\nОбъединение ведьм не рекомендует вольное обращение с ритуалом плодородия в связи с тем, что он приводит к беспорядочному росту растений."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "components": [
+            {
+              "rite": "enchanted:fertility",
+              "template": "enchanted:page/rite"
+            },
+            {
+              "rite": "enchanted:fertility_charged",
+              "template": "enchanted:page/rite"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "title": "Плодородие"
+}

@@ -1,0 +1,31 @@
+{
+  "assigned_items": [
+    "enchanted:mandrake_root",
+    "enchanted:mandrake_seeds"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:mandrake_root"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Мандрагоры",
+          "template": "modopedia:page/headered_text",
+          "text": "Мандрагоры — это группа многолетних травянистых растений с длинным, имеющий форму пастернака корнями.\n\nМандрагора пронзительно завопит, если потревожить её, что повлечёт за собой увечье или даже смерть. Ношение «$(b)$(el:items/earmuffs)Звукопоглощающих наушников$(/el)$(/b)» защитит вас и поможет спать ночью."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "block": "enchanted:mandrake[age=4]",
+          "template": "modopedia:page/block",
+          "text": "$(b)Получение:$(/b)\nВыпадает с высокой и низкой травы."
+        }
+      ]
+    }
+  ],
+  "title": "Мандрагоры"
+}

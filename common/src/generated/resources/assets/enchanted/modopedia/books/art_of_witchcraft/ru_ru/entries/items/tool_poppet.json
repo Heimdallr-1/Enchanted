@@ -1,0 +1,43 @@
+{
+  "assigned_items": [
+    "enchanted:tool_poppet",
+    "enchanted:infused_tool_poppet",
+    "enchanted:sturdy_tool_poppet"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:tool_poppet"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Ремесло",
+          "template": "modopedia:page/headered_text",
+          "text": "Во время разрушения защищает часть переносимого снаряжения от разрушения, восстанавливая немного его прочности.\n\nЕсли наполнена, напротив, полностью починит инструмент."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "components": [
+            {
+              "recipe": "enchanted:spinning/tool_poppet",
+              "template": "enchanted:page/spinning"
+            },
+            {
+              "recipe": "enchanted:spinning/infused_tool_poppet",
+              "template": "enchanted:page/spinning"
+            },
+            {
+              "recipe": "enchanted:spinning/sturdy_tool_poppet",
+              "template": "enchanted:page/spinning"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "title": "Ремесло"
+}

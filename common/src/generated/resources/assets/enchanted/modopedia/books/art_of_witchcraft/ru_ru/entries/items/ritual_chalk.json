@@ -1,0 +1,29 @@
+{
+  "assigned_items": [
+    "enchanted:ritual_chalk"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:ritual_chalk"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Ритуальный мелок",
+          "template": "modopedia:page/headered_text",
+          "text": "Ритуальный мелок считается самым начальным мелком из четырёх типов, используемым для начерчения простых кругов при проведении ритуалов.\n\nРитуальный мелок не владеет особыми эффектами, он попросту наполняется с применением «$(b)$(el:items/tear_of_the_goddess)Слезы богини$(/el)$(/b)»."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "recipe": "enchanted:ritual_chalk",
+          "template": "modopedia:page/crafting"
+        }
+      ]
+    }
+  ],
+  "title": "Ритуальный мелок"
+}

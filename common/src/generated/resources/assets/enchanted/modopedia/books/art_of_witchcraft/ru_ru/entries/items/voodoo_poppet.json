@@ -1,0 +1,29 @@
+{
+  "assigned_items": [
+    "enchanted:voodoo_poppet"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:voodoo_poppet"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Вольт",
+          "template": "modopedia:page/headered_text",
+          "text": "Вольты, в отличие от других кукол, являются чучелами, используемыми для передачи урона на их цель.\n\nСожжение вольта в пламени или лаве, утопление или втыкание его иглами, наоборот, нанесёт вред цели."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "recipe": "enchanted:spinning/voodoo_poppet",
+          "template": "enchanted:page/spinning"
+        }
+      ]
+    }
+  ],
+  "title": "Вольт"
+}

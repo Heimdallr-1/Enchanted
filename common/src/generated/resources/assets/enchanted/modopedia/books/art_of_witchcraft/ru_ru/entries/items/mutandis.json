@@ -1,0 +1,29 @@
+{
+  "assigned_items": [
+    "enchanted:mutandis"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:mutandis"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Мутандис",
+          "template": "modopedia:page/headered_text",
+          "text": "Мутандис используется для мутации растений в другие виды, которые вы бы не смогли получить обычным способом.\n\nПрименение на блоке этого вещества заставит его $(b)$(el:herbology/mutations)мутировать$(/el)$(/b) в разновидный блок при соответствующих условиях."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "recipe": "enchanted:kettle/mutandis",
+          "template": "enchanted:recipe/kettle"
+        }
+      ]
+    }
+  ],
+  "title": "Мутандис"
+}

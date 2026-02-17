@@ -1,0 +1,29 @@
+{
+  "assigned_items": [
+    "enchanted:golden_chalk"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:golden_chalk"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Золотой мелок",
+          "template": "modopedia:page/headered_text",
+          "text": "Мелок — это крайне необходимый инструмент для очерчивания магического круга и наиболее значимым среди мелков считается золотой мелок.\n\n$(b)$(el:circle_magic/tutorial/performing_rites)Квинтэссенция$(/el)$(/b) для $(b)$(cl:circle_magic)магического круга$(/cl)$(/b) очерчивается именно золотым мелком."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "recipe": "enchanted:kettle/golden_chalk",
+          "template": "enchanted:recipe/kettle"
+        }
+      ]
+    }
+  ],
+  "title": "Золотой мелок"
+}

@@ -1,0 +1,51 @@
+{
+  "assigned_items": [
+    "enchanted:spanish_moss"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:spanish_moss"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Луизианский мох",
+          "template": "modopedia:page/headered_text",
+          "text": "Эпифитное цветковое растение, похожее на мох или лишайник, встречается, растущим на деревьях в тропических и субтропических климатах.\n\nСоберите ножницами, чтобы оставить его в неизменном виде."
+        },
+        {
+          "type": "modopedia:multiblock",
+          "height": 60,
+          "multiblock": {
+            "type": "modopedia:dense",
+            "key": {
+              "S": {
+                "type": "modopedia:simple",
+                "states": [
+                  "enchanted:spanish_moss"
+                ]
+              }
+            },
+            "pattern": [
+              [
+                "S"
+              ]
+            ]
+          },
+          "no_offsets": true,
+          "y": 90
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "result": "enchanted:spanish_moss",
+          "template": "enchanted:page/mutagen"
+        }
+      ]
+    }
+  ],
+  "title": "Луизианский мох"
+}

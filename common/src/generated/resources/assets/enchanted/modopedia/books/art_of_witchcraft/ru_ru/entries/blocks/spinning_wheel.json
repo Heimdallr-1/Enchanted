@@ -1,0 +1,59 @@
+{
+  "assigned_items": [
+    "enchanted:spinning_wheel"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:spinning_wheel"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Прядение",
+          "template": "modopedia:page/headered_text",
+          "text": "Прялка используется ведьмами для сплетения материалов, что исключительно используется в обиходе в $(b)$(cl:poppetry)кукловедении$(/cl)$(/b).\n\nПлетение тратит $(b)$(el:blocks/altar)силу алтаря$(/el)$(/b), поэтому прялку следует поставить соответствующим образом."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "type": "modopedia:header",
+          "text": "template.modopedia.crafting_recipe"
+        },
+        {
+          "type": "modopedia:separator",
+          "y": 10
+        },
+        {
+          "type": "modopedia:multiblock",
+          "height": 50,
+          "multiblock": {
+            "type": "modopedia:dense",
+            "key": {
+              "D": {
+                "type": "modopedia:simple",
+                "states": [
+                  "enchanted:spinning_wheel"
+                ]
+              }
+            },
+            "pattern": [
+              [
+                "D"
+              ]
+            ]
+          },
+          "y": 10
+        },
+        {
+          "recipe": "enchanted:spinning_wheel",
+          "template": "modopedia:recipe/crafting",
+          "y": 70
+        }
+      ]
+    }
+  ],
+  "title": "Прядение"
+}

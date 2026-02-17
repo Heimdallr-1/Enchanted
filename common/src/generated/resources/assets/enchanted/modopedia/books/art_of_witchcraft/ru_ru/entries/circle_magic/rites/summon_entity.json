@@ -1,0 +1,27 @@
+{
+  "assigned_items": [],
+  "icon": {
+    "count": 1,
+    "id": "minecraft:chorus_fruit"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Призыв существа",
+          "template": "modopedia:page/headered_text",
+          "text": "Заставляет существо, связанное с волшебным звеном, телепортироваться в колдующий круг.\n\nНе может повлиять на одежду, носимое охотниками на ведьм.\n\nНезагруженные или исчезнувшие существа призвать невозможно."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "rite": "enchanted:summon_entity",
+          "template": "enchanted:page/rite"
+        }
+      ]
+    }
+  ],
+  "title": "Призыв существа"
+}

@@ -1,0 +1,43 @@
+{
+  "assigned_items": [
+    "enchanted:void_poppet",
+    "enchanted:infused_void_poppet",
+    "enchanted:sturdy_void_poppet"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:void_poppet"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Пустотная",
+          "template": "modopedia:page/headered_text",
+          "text": "Когда получатель падает в пустоту, напротив, кукла переместит его наверх.\n\nНаполненные пустотные куклы также дают $(b)$(t:Даёт устойчивость к урону от падения)сопротивление к падению$(/t) в течение 10 секунд."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "components": [
+            {
+              "recipe": "enchanted:spinning/void_poppet",
+              "template": "enchanted:page/spinning"
+            },
+            {
+              "recipe": "enchanted:spinning/infused_void_poppet",
+              "template": "enchanted:page/spinning"
+            },
+            {
+              "recipe": "enchanted:spinning/sturdy_void_poppet",
+              "template": "enchanted:page/spinning"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "title": "Пустотная"
+}

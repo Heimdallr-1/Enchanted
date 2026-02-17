@@ -1,0 +1,33 @@
+{
+  "assigned_items": [
+    "enchanted:tear_of_the_goddess"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:tear_of_the_goddess"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Слеза богини",
+          "template": "modopedia:page/headered_text",
+          "text": "Лазурит — это драгоценный камень, приносящий: свободу, правду, верность и честь.\n\nСочетание лазурита с силой Белой богини усиливает его эффекты."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "components": [
+            {
+              "recipe": "enchanted:distilling/breath_of_the_goddess_lapis_lazuli",
+              "template": "enchanted:page/distillery"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "title": "Слеза богини"
+}

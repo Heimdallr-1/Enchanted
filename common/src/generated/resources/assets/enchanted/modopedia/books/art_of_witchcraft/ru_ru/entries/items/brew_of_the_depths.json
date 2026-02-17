@@ -1,0 +1,29 @@
+{
+  "assigned_items": [
+    "enchanted:brew_of_the_depths"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:brew_of_the_depths"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Взвар глубин",
+          "template": "modopedia:page/headered_text",
+          "text": "Возможность дышать под водой интересует людей на протяжении тысячелетий. К счастью, ведьмы нашли этому решение.\n\nВыпивание взвара глубин наделяет способностью дышать под водой в течение длительного времени."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "recipe": "enchanted:kettle/brew_of_the_depths",
+          "template": "enchanted:recipe/kettle"
+        }
+      ]
+    }
+  ],
+  "title": "Взвар глубин"
+}

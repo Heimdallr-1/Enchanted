@@ -1,0 +1,27 @@
+{
+  "assigned_items": [],
+  "icon": {
+    "count": 1,
+    "id": "minecraft:slime_ball"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Снятие неуклюжести",
+          "template": "modopedia:page/headered_text",
+          "text": "Восстанавливает хватку намеченному существу, позволяя ему пользоваться инструментами как и прежде.\n\nНеуспех ритуала вызовет дополнительное ослабление хватки."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "rite": "enchanted:remove_clumsy",
+          "template": "enchanted:page/rite"
+        }
+      ]
+    }
+  ],
+  "title": "Снятие неуклюжести"
+}

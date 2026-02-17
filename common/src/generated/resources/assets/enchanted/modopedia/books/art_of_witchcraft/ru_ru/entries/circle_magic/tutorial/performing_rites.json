@@ -1,0 +1,74 @@
+{
+  "assigned_items": [],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:circle_talisman"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Совершение ритуалов",
+          "template": "modopedia:page/headered_text",
+          "text": "Ведьма должна следовать трёмя базовыми этапами, чтобы выполнить магический круг: начертить правильные глифы, добавить квинтэссенцию и, наконец, активировать ритуал."
+        },
+        {
+          "images": [
+            "enchanted:textures/gui/modopedia/circle_magic.png"
+          ],
+          "template": "enchanted:framed_image",
+          "x": 10,
+          "y": 90
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "header": "Сердце глифов",
+          "template": "modopedia:page/headered_text",
+          "text": "Каждый ритуал начинается с квинтэссенции: символ чертится $(b)$(el:items/golden_chalk)золотым мелком$(/el)$(/b).\n\nОна считается сердцем ритуала, действуя в роли проводника силы и используется для активации или деактивации магии."
+        },
+        {
+          "type": "modopedia:multiblock",
+          "height": 50,
+          "multiblock": {
+            "type": "modopedia:dense",
+            "key": {
+              "G": {
+                "type": "modopedia:simple",
+                "states": [
+                  "enchanted:golden_chalk"
+                ]
+              }
+            },
+            "pattern": [
+              [
+                "G"
+              ]
+            ]
+          },
+          "y": 90
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "header": "Глифы и средоточие",
+          "template": "modopedia:page/headered_text",
+          "text": "После квинтэссенции ритуалам нужны мелковые круги, начерченные: $(b)$(el:items/ritual_chalk)ритуальным$(/el)$(/b), $(b)$(el:items/nether_chalk)адским$(/el)$(/b) или мелком из $(b)$(el:items/otherwhere_chalk)Иного Мира$(/el)$(/b). \n\nИсточник, например, предметы, живые жертвоприношения — следует поместить в рамках кругов.\n\nКогда выполнены все условия, можно активировать квинтэссенцию."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "rite": "enchanted:charging_stone",
+          "template": "enchanted:page/rite"
+        }
+      ]
+    }
+  ],
+  "title": "Совершение ритуалов"
+}

@@ -1,0 +1,29 @@
+{
+  "assigned_items": [
+    "enchanted:mystic_unguent"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:mystic_unguent"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Таинственный бальзам",
+          "template": "modopedia:page/headered_text",
+          "text": "Таинственный бальзам — это скрупулёзное варево, которое позволяет ведьме превращать свои идеи в жизнь.\n\nОсновное его применение заключается в создании мистических ветвей.\n\nУпотреблять не рекомендуется."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "recipe": "enchanted:kettle/mystic_unguent",
+          "template": "enchanted:recipe/kettle"
+        }
+      ]
+    }
+  ],
+  "title": "Таинственный бальзам"
+}

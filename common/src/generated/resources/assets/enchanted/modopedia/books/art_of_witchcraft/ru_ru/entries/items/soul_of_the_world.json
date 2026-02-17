@@ -1,0 +1,29 @@
+{
+  "assigned_items": [
+    "enchanted:soul_of_the_world"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:soul_of_the_world"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Душа мира",
+          "template": "modopedia:page/headered_text",
+          "text": "Душа мира — это выведение $(b)$(el:items/redstone_soup)редстоунового супа$(/el)$(/b), наполненного природной энергией. Взвар может использоваться для наполнения человека энергией, чтобы наделить его особыми способностями.\n\nНе следует глотать, взвар чрезвычайно токсичный."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "recipe": "enchanted:kettle/soul_of_the_world",
+          "template": "enchanted:recipe/kettle"
+        }
+      ]
+    }
+  ],
+  "title": "Душа мира"
+}

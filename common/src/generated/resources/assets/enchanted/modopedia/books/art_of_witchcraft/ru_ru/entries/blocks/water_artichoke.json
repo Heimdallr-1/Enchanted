@@ -1,0 +1,31 @@
+{
+  "assigned_items": [
+    "enchanted:water_artichoke",
+    "enchanted:water_artichoke_seeds"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:water_artichoke"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Морской артишок",
+          "template": "modopedia:page/headered_text",
+          "text": "Подвид обычного «Артишока» или «Артишока испанского». Растёт только на непроточном водоёме.\n\nЧего не скажешь о его зелёном собрате — не пригоден к употреблению в пищу. Употребление артишока утолит голод, но на голодный желудок."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "block": "enchanted:water_artichoke[age=4]",
+          "template": "modopedia:page/block",
+          "text": "$(b)Получение:$(/b)\nВыпадает с высокой и низкой травы."
+        }
+      ]
+    }
+  ],
+  "title": "Морской артишок"
+}

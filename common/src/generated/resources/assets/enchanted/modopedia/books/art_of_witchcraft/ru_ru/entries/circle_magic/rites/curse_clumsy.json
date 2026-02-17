@@ -1,0 +1,27 @@
+{
+  "assigned_items": [],
+  "icon": {
+    "count": 1,
+    "id": "minecraft:slime_ball"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Неуклюжесть",
+          "template": "modopedia:page/headered_text",
+          "text": "Накладывает на цель быструю утрату хватки, усложняя удержание боевых предметов во время взмаха.\n\nНа последующих уровнях предметы будут чаще выпадать."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "rite": "enchanted:curse_clumsy",
+          "template": "enchanted:page/rite"
+        }
+      ]
+    }
+  ],
+  "title": "Неуклюжесть"
+}

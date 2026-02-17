@@ -1,0 +1,29 @@
+{
+  "assigned_items": [
+    "enchanted:nether_chalk"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:nether_chalk"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Адский мелок",
+          "template": "modopedia:page/headered_text",
+          "text": "Наполнение мелка огненным порошком связывает его с Незером и обеспечивает лучшую проводимость пламени.\n\nАдский мелок используется во множестве ритуалов, связанных с Незером, демоническими существами или пламенем."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "recipe": "enchanted:kettle/nether_chalk",
+          "template": "enchanted:recipe/kettle"
+        }
+      ]
+    }
+  ],
+  "title": "Адский мелок"
+}

@@ -1,0 +1,33 @@
+{
+  "assigned_items": [
+    "enchanted:gypsum"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:gypsum"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Гипс",
+          "template": "modopedia:page/headered_text",
+          "text": "Мягкая, полупрозрачная минеральная соль серной кислоты, образуемая в результате окисления сульфидов в присутствии негашеной извести.\n\nКроме того, в сыром виде является эффективным удобрением. Преимущественно используется (как основа) ритуальных мелков."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "components": [
+            {
+              "recipe": "enchanted:distilling/foul_fume_quicklime",
+              "template": "enchanted:page/distillery"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "title": "Гипс"
+}

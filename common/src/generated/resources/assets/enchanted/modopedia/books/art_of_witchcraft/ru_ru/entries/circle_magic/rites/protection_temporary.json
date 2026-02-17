@@ -1,0 +1,39 @@
+{
+  "assigned_items": [],
+  "icon": {
+    "count": 1,
+    "id": "minecraft:shulker_shell"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Временная защита",
+          "template": "modopedia:page/headered_text",
+          "text": "Призывает непроходимый купол, через которого всякому невозможно пройти в течение 1 минуты.\n\nДополнение $(b)$(el:circle_magic/rites/waystone)связанного$(/el)$(/b) или $(b)$(el:circle_magic/rites/waystone_blooded)окровавленного$(/el)$(/b) путевого камня позволяет колдуну вызывать купол на конкретном месте."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "components": [
+            {
+              "rite": "enchanted:protection_temporary",
+              "template": "enchanted:page/rite"
+            },
+            {
+              "rite": "enchanted:protection_temporary_waystone",
+              "template": "enchanted:page/rite"
+            },
+            {
+              "rite": "enchanted:protection_temporary_blooded",
+              "template": "enchanted:page/rite"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "title": "Временная защита"
+}

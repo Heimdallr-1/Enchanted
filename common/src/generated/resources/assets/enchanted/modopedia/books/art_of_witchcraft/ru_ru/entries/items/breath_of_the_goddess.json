@@ -1,0 +1,33 @@
+{
+  "assigned_items": [
+    "enchanted:breath_of_the_goddess"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:breath_of_the_goddess"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Дыхание богини",
+          "template": "modopedia:page/headered_text",
+          "text": "Благодаря серебристому внешнему виду (в ряде случаев) берёзу называют «Белая леди леса» и ассоциируется с богиней Бригантия.\n\nПри сожжении берёзы выделяется дым, который обладает целебными свойствами."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "components": [
+            {
+              "recipe": "enchanted:byproduct/breath_of_the_goddess_birch_sapling",
+              "template": "enchanted:page/byproduct"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "title": "Дыхание богини"
+}

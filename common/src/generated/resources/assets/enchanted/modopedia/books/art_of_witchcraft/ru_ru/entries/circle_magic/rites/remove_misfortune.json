@@ -1,0 +1,27 @@
+{
+  "assigned_items": [],
+  "icon": {
+    "count": 1,
+    "id": "minecraft:ender_eye"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Снятие невзгоды",
+          "template": "modopedia:page/headered_text",
+          "text": "Снимает появления невзгоды намеченному существу.\n\nЕсли снятие провалилось, это навлечёт на цель ещё большую невзгоду."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "rite": "enchanted:remove_misfortune",
+          "template": "enchanted:page/rite"
+        }
+      ]
+    }
+  ],
+  "title": "Снятие невзгоды"
+}

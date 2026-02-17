@@ -1,0 +1,29 @@
+{
+  "assigned_items": [
+    "enchanted:spirit_of_otherwhere"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:spirit_of_otherwhere"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Дух Иного Мира",
+          "template": "modopedia:page/headered_text",
+          "text": "Подобие $(b)$(el:items/soul_of_the_world)души мира$(/el)$(/b). Дух Иного Мира — это выведение $(b)$(el:items/redstone_soup)редстоунового супа$(/el)$(/b), наполненного единичными свойствами как Энд, так и его обитателей.\n\nНе следует глотать, настойка чрезвычайно токсичная."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "recipe": "enchanted:kettle/spirit_of_otherwhere",
+          "template": "enchanted:recipe/kettle"
+        }
+      ]
+    }
+  ],
+  "title": "Дух Иного Мира"
+}

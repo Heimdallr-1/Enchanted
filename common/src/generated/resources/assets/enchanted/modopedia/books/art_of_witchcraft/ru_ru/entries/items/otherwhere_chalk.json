@@ -1,0 +1,29 @@
+{
+  "assigned_items": [
+    "enchanted:otherwhere_chalk"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:otherwhere_chalk"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Мелок Иного Мира",
+          "template": "modopedia:page/headered_text",
+          "text": "Материалы из Энда можно наполнить в мелок для создания ценного фиолетового мелка с особыми свойствами.\n\nМелок Иного Мира преимущественно используется в ритуалах магического круга, связанных с телепортацией, переносом, сменой месторасположения или Эндом."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "recipe": "enchanted:kettle/otherwhere_chalk",
+          "template": "enchanted:recipe/kettle"
+        }
+      ]
+    }
+  ],
+  "title": "Мелок Иного Мира"
+}

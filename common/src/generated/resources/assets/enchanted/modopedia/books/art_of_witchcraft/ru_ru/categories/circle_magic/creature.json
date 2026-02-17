@@ -1,0 +1,15 @@
+{
+  "display_on_front_page": false,
+  "entries": [
+    "circle_magic/rites/imprisonment",
+    "circle_magic/rites/protection",
+    "circle_magic/rites/protection_temporary",
+    "circle_magic/rites/sanctity"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "minecraft:creeper_head"
+  },
+  "landing_text": "Ритуалы для существ используются для изменения или ограничения поведения монстров и прочих существ.\n\nНередко такие ритуалы используются для защиты, охраны и заключения.",
+  "title": "Существа"
+}

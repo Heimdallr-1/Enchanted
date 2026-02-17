@@ -1,0 +1,29 @@
+{
+  "assigned_items": [
+    "enchanted:broom"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:broom"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Метла",
+          "template": "modopedia:page/headered_text",
+          "text": "Метла подходит для сметания мелков одним нажатием, исключая время на очистку.\n\nКак бы случайно метла также обеспечивает великолепный способ перемещения (с $(b)$(el:circle_magic/rites/infuse_broom)некоторой подготовкой$(/el)$(/b) к полёту)."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "recipe": "enchanted:broom",
+          "template": "modopedia:page/crafting"
+        }
+      ]
+    }
+  ],
+  "title": "Метла"
+}

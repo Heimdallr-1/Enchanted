@@ -1,0 +1,45 @@
+{
+  "assigned_items": [
+    "enchanted:bound_waystone"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "enchanted:bound_waystone"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Путевой камень",
+          "template": "modopedia:page/headered_text",
+          "text": "$(b)$(el:items/waystone)Путевой камень$(/el)$(/b) может быть связан с местоположением, дабы представить его в других ритуалах; особенно в $(b)$(cl:circle_magic/translocation)ритуалах перемещения.$(/cl)$(/b)\n\nПутевой камень будет связан с местоположением ритуала, где он используется; либо же дублирован с существующего путевого камня."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "components": [
+            {
+              "rite": "enchanted:waystone",
+              "template": "enchanted:page/rite"
+            },
+            {
+              "rite": "enchanted:waystone_charged",
+              "template": "enchanted:page/rite"
+            },
+            {
+              "rite": "enchanted:duplicate_waystone",
+              "template": "enchanted:page/rite"
+            },
+            {
+              "rite": "enchanted:duplicate_waystone_charged",
+              "template": "enchanted:page/rite"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "title": "Путевой камень"
+}
